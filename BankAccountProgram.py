@@ -13,12 +13,11 @@ def main():
    # Deposit the user's paycheck.
    pay = float(input('How much were you paid this week? '))
    print('I will deposit that into your account.')
-   savings.deposit(pay)
+   savings.deposit(pay)532
 
    # Display the balance.
    print('Your account balance is $', format(savings.get_balance(), ',.2f'),
         sep='')
-
    # Get the amount to withdraw.
    cash = float(input('How much would you like to withdraw? '))
    print('I will withdraw that from your account.')
